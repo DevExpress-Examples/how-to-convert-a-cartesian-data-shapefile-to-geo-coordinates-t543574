@@ -7,11 +7,11 @@
 
 # Map for WinForms - How to Convert a Cartesian Data Shapefile to Geo Coordinates 
 
-Two types of coordinate systems are used when you create a map: [Cartesian coordinate](http://en.wikipedia.org/wiki/Cartesian_coordinate_system) and [Geographic coordinate](http://en.wikipedia.org/wiki/Geographic_coordinate_syste). This example opens a shape file with Cartesian coordinates and saves it to a shape file with Geo coordinates. To convert a shape file with this example, run the project, then open a shape file and its projection file (if it has not been found automatically), and then save the map to a new shape file.
+Two types of coordinate systems are used when you create a map: [Cartesian coordinate](http://en.wikipedia.org/wiki/Cartesian_coordinate_system) and [Geographic coordinate](http://en.wikipedia.org/wiki/Geographic_coordinate_syste). This example opens a shape file with Cartesian coordinates and saves it to a shape file with Geo coordinates. 
 
 ## Implementation Details 
 
-To convert Cartesian coordinates to Geo coordinates, MapControl requires information about the projection used in a shape file to represent a spherical surface in Cartesian coordinates. Refer to the  topic for additional information about projections. MapControl can load the required information from the projection (*.PRJ) file. If your data contains the *.PRJ file and this file is located in the same directory and has the same name as a shapefile, the coordinate system will be loaded automatically. Otherwise, if the paths or the names are different, call the [ShapefileDataAdapter.LoadPrjFile](https://documentation.devexpress.com/WindowsForms/DevExpress.XtraMap.ShapefileDataAdapter.LoadPrjFile.overloads) method to load the coordinate system's metadata.  
+To convert Cartesian coordinates to Geo coordinates, MapControl requires information about the projection used in a shape file to represent a spherical surface in Cartesian coordinates. MapControl can load the required information from the projection (*.PRJ) file. If your data contains the *.PRJ file and this file is located in the same directory and has the same name as a shapefile, the coordinate system will be loaded automatically. Otherwise, if the paths or the names are different, call the [ShapefileDataAdapter.LoadPrjFile](https://documentation.devexpress.com/WindowsForms/DevExpress.XtraMap.ShapefileDataAdapter.LoadPrjFile.overloads) method to load the coordinate system's metadata. To convert a shape file with this example, run the project, then open a shape file and its projection file (if it has not been found automatically), and then save the map to a new shape file.
 
 ## Files to Review
 
