@@ -7,7 +7,7 @@
 
 # Map for WinForms - How to Convert a Cartesian Data Shapefile to Geo Coordinates 
 
-Two types of coordinate systems are used when you create a map: [Cartesian coordinate](http://en.wikipedia.org/wiki/Cartesian_coordinate_system) and [Geographic coordinate](http://en.wikipedia.org/wiki/Geographic_coordinate_syste). This example opens a shape file with Cartesian coordinates and saves it to a shape file with Geo coordinates. 
+Two types of coordinate systems are used when you create a map: [Cartesian coordinate](http://en.wikipedia.org/wiki/Cartesian_coordinate_system) and [Geographic coordinate](http://en.wikipedia.org/wiki/Geographic_coordinate_system). This example opens a shape file with Cartesian coordinates and saves it to a shape file with Geo coordinates. 
 
 ## Implementation Details 
 
