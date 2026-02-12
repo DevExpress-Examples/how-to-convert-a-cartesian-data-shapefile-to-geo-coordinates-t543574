@@ -23,7 +23,7 @@ To convert Cartesian coordinates to Geo coordinates, MapControl requires informa
 * [Geographical Projections](https://documentation.devexpress.com/WindowsForms/15079/Controls-and-Libraries/Map-Control/Coordinate-Systems/Geographical-Projections)
 
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-map-convert-a-cartesian-data-shapefile-to-geo-coordinates&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-map-convert-a-cartesian-data-shapefile-to-geo-coordinates&~~~was_helpful=no)
 
